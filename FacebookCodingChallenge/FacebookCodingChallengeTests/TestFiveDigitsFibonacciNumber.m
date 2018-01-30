@@ -52,7 +52,7 @@
     [self measureBlock:^{
         // Put the code you want to measure the time of here.
         NSString* last5_100000 = [FiveDigitsFibonacciNumber last5DigitsFibonacci:100000];
-        NSLog(@"Last 5 digits of 1001st fibonacci number: %@", last5_100000);
+        NSLog(@"Last 5 digits of 100000st fibonacci number: %@", last5_100000);
     }];
 }
 
