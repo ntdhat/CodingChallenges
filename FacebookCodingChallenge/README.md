@@ -1,7 +1,7 @@
 # CodingChallenges
 
 ## Facebook Challenges
-Run the following test cases:
+There're two coding challenges:
 ### Poker Problem
 * Written in Swift 4
 * Run the test case in TestPokerProblem.swift. There's one test case checking how many time Player 1 won from the test data provided. Check debug logs for results.
