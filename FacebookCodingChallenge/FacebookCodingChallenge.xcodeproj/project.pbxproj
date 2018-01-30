@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84740B5C201FE611002131DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84740B5B201FE611002131DA /* AppDelegate.swift */; };
+		84740B5E201FE611002131DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84740B5D201FE611002131DA /* ViewController.swift */; };
+		84740B61201FE611002131DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84740B5F201FE611002131DA /* Main.storyboard */; };
+		84740B63201FE611002131DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84740B62201FE611002131DA /* Assets.xcassets */; };
+		84740B66201FE611002131DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84740B64201FE611002131DA /* LaunchScreen.storyboard */; };
+		84740B7C201FE67C002131DA /* PokerProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84740B7B201FE67C002131DA /* PokerProblem.swift */; };
+		84740B7F201FE6FC002131DA /* TestPokerProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84740B7E201FE6FC002131DA /* TestPokerProblem.swift */; };
+		84740B81201FE7D5002131DA /* p054_poker.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84740B80201FE7D5002131DA /* p054_poker.txt */; };
+		84740B84201FE93B002131DA /* TestFiveDigitsFibonacciNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 84740B83201FE93B002131DA /* TestFiveDigitsFibonacciNumber.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84740B6D201FE611002131DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84740B50201FE611002131DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84740B57201FE611002131DA;
+			remoteInfo = FacebookCodingChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84740B58201FE611002131DA /* FacebookCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84740B5B201FE611002131DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84740B5D201FE611002131DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84740B60201FE611002131DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84740B62201FE611002131DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84740B65201FE611002131DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84740B67201FE611002131DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84740B6C201FE611002131DA /* FacebookCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84740B72201FE611002131DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84740B7B201FE67C002131DA /* PokerProblem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokerProblem.swift; sourceTree = "<group>"; };
+		84740B7D201FE6FC002131DA /* FacebookCodingChallengeTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacebookCodingChallengeTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		84740B7E201FE6FC002131DA /* TestPokerProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPokerProblem.swift; sourceTree = "<group>"; };
+		84740B80201FE7D5002131DA /* p054_poker.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p054_poker.txt; sourceTree = "<group>"; };
+		84740B82201FE8E7002131DA /* FiveDigitsFibonacciNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveDigitsFibonacciNumber.h; sourceTree = "<group>"; };
+		84740B83201FE93B002131DA /* TestFiveDigitsFibonacciNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFiveDigitsFibonacciNumber.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84740B55201FE611002131DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84740B69201FE611002131DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84740B4F201FE611002131DA = {
+			isa = PBXGroup;
+			children = (
+				84740B5A201FE611002131DA /* FacebookCodingChallenge */,
+				84740B6F201FE611002131DA /* FacebookCodingChallengeTests */,
+				84740B59201FE611002131DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84740B59201FE611002131DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84740B58201FE611002131DA /* FacebookCodingChallenge.app */,
+				84740B6C201FE611002131DA /* FacebookCodingChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84740B5A201FE611002131DA /* FacebookCodingChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				84740B7B201FE67C002131DA /* PokerProblem.swift */,
+				84740B5B201FE611002131DA /* AppDelegate.swift */,
+				84740B5D201FE611002131DA /* ViewController.swift */,
+				84740B5F201FE611002131DA /* Main.storyboard */,
+				84740B62201FE611002131DA /* Assets.xcassets */,
+				84740B64201FE611002131DA /* LaunchScreen.storyboard */,
+				84740B67201FE611002131DA /* Info.plist */,
+				84740B82201FE8E7002131DA /* FiveDigitsFibonacciNumber.h */,
+			);
+			path = FacebookCodingChallenge;
+			sourceTree = "<group>";
+		};
+		84740B6F201FE611002131DA /* FacebookCodingChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				84740B80201FE7D5002131DA /* p054_poker.txt */,
+				84740B72201FE611002131DA /* Info.plist */,
+				84740B83201FE93B002131DA /* TestFiveDigitsFibonacciNumber.m */,
+				84740B7E201FE6FC002131DA /* TestPokerProblem.swift */,
+				84740B7D201FE6FC002131DA /* FacebookCodingChallengeTests-Bridging-Header.h */,
+			);
+			path = FacebookCodingChallengeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84740B57201FE611002131DA /* FacebookCodingChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84740B75201FE611002131DA /* Build configuration list for PBXNativeTarget "FacebookCodingChallenge" */;
+			buildPhases = (
+				84740B54201FE611002131DA /* Sources */,
+				84740B55201FE611002131DA /* Frameworks */,
+				84740B56201FE611002131DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookCodingChallenge;
+			productName = FacebookCodingChallenge;
+			productReference = 84740B58201FE611002131DA /* FacebookCodingChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84740B6B201FE611002131DA /* FacebookCodingChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84740B78201FE611002131DA /* Build configuration list for PBXNativeTarget "FacebookCodingChallengeTests" */;
+			buildPhases = (
+				84740B68201FE611002131DA /* Sources */,
+				84740B69201FE611002131DA /* Frameworks */,
+				84740B6A201FE611002131DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84740B6E201FE611002131DA /* PBXTargetDependency */,
+			);
+			name = FacebookCodingChallengeTests;
+			productName = FacebookCodingChallengeTests;
+			productReference = 84740B6C201FE611002131DA /* FacebookCodingChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84740B50201FE611002131DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ntdhat;
+				TargetAttributes = {
+					84740B57201FE611002131DA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					84740B6B201FE611002131DA = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84740B57201FE611002131DA;
+					};
+				};
+			};
+			buildConfigurationList = 84740B53201FE611002131DA /* Build configuration list for PBXProject "FacebookCodingChallenge" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84740B4F201FE611002131DA;
+			productRefGroup = 84740B59201FE611002131DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84740B57201FE611002131DA /* FacebookCodingChallenge */,
+				84740B6B201FE611002131DA /* FacebookCodingChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84740B56201FE611002131DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84740B66201FE611002131DA /* LaunchScreen.storyboard in Resources */,
+				84740B63201FE611002131DA /* Assets.xcassets in Resources */,
+				84740B61201FE611002131DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84740B6A201FE611002131DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84740B81201FE7D5002131DA /* p054_poker.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84740B54201FE611002131DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84740B5E201FE611002131DA /* ViewController.swift in Sources */,
+				84740B7C201FE67C002131DA /* PokerProblem.swift in Sources */,
+				84740B5C201FE611002131DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84740B68201FE611002131DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84740B7F201FE6FC002131DA /* TestPokerProblem.swift in Sources */,
+				84740B84201FE93B002131DA /* TestFiveDigitsFibonacciNumber.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84740B6E201FE611002131DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84740B57201FE611002131DA /* FacebookCodingChallenge */;
+			targetProxy = 84740B6D201FE611002131DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84740B5F201FE611002131DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84740B60201FE611002131DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84740B64201FE611002131DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84740B65201FE611002131DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84740B73201FE611002131DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84740B74201FE611002131DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84740B76201FE611002131DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E3KLWFG27;
+				INFOPLIST_FILE = FacebookCodingChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntdhat.FacebookCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84740B77201FE611002131DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E3KLWFG27;
+				INFOPLIST_FILE = FacebookCodingChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntdhat.FacebookCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84740B79201FE611002131DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E3KLWFG27;
+				INFOPLIST_FILE = FacebookCodingChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntdhat.FacebookCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FacebookCodingChallengeTests/FacebookCodingChallengeTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookCodingChallenge.app/FacebookCodingChallenge";
+			};
+			name = Debug;
+		};
+		84740B7A201FE611002131DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E3KLWFG27;
+				INFOPLIST_FILE = FacebookCodingChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntdhat.FacebookCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FacebookCodingChallengeTests/FacebookCodingChallengeTests-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookCodingChallenge.app/FacebookCodingChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84740B53201FE611002131DA /* Build configuration list for PBXProject "FacebookCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84740B73201FE611002131DA /* Debug */,
+				84740B74201FE611002131DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84740B75201FE611002131DA /* Build configuration list for PBXNativeTarget "FacebookCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84740B76201FE611002131DA /* Debug */,
+				84740B77201FE611002131DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84740B78201FE611002131DA /* Build configuration list for PBXNativeTarget "FacebookCodingChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84740B79201FE611002131DA /* Debug */,
+				84740B7A201FE611002131DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84740B50201FE611002131DA /* Project object */;
+}
